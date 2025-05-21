@@ -4,117 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Unifor</title>
-    <style>
-      
-        :root {
-            --azul-bebe: #e6f2ff;
-            --branco-gema: #fff9e6;
-            --dourado: #d4af37;
-            --azul-escuro: #3a7bd5;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: var(--azul-bebe);
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #333;
-        }
-
-        .login-container {
-            background-color: var(--branco-gema);
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            width: 350px;
-            text-align: center;
-            border: 1px solid var(--dourado);
-        }
-
-        .login-container h1 {
-            color: var(--azul-escuro);
-            margin-bottom: 25px;
-            font-size: 24px;
-        }
-
-        .input-group {
-            margin-bottom: 20px;
-            text-align: left;
-        }
-
-        .input-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-            color: var(--azul-escuro);
-        }
-
-        .input-group input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-            box-sizing: border-box;
-        }
-
-        .input-group input:focus {
-            border-color: var(--dourado);
-            outline: none;
-        }
-
-        .btn-login {
-            background-color: var(--azul-escuro);
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100%;
-            margin-bottom: 15px;
-            transition: background-color 0.3s;
-        }
-
-        .btn-login:hover {
-            background-color: #2a65b0;
-        }
-
-        .btn-cadastro {
-            background-color: transparent;
-            color: var(--azul-escuro);
-            border: 1px solid var(--dourado);
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.3s;
-        }
-
-        .btn-cadastro:hover {
-            background-color: var(--dourado);
-            color: white;
-        }
-
-        .logo {
-            margin-bottom: 20px;
-            color: var(--dourado);
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .footer {
-            margin-top: 20px;
-            font-size: 12px;
-            color: #777;
-        }
-    </style>
-    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-    <script src="login.js"></script>
+    <link rel="stylesheet" href="css/style_login.css" >
+    
 
 </head>
 <body>
@@ -141,5 +32,8 @@
             © 2023 Universidade Unifor - Todos os direitos reservados
         </div>
     </div>
+
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
